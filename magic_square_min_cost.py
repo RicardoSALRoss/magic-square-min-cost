@@ -79,8 +79,3 @@ def formingMagicSquare(s):
             is_magic=False
     if (all_costs!=[]):
         return min(all_costs)
-
-sa=[[5, 3, 4], [1, 5, 8], [6, 4, 2]]
-quatro=[[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]]
-outro=formingMagicSquare(quatro)
-outro
